@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply bg-indigo-600 text-white px-3 py-2 rounded-lg;
+  }
+  input,
+  textarea {
+    @apply border-2 w-full block  p-3 rounded-lg;
+  }
+  button {
+    @apply disabled:opacity-50 bg-indigo-500;
+  }
+}
